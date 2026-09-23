@@ -1,2 +1,19 @@
 # primo_progetto
-
+*.log
+*.pot
+*.pyc
+__pycache__
+media
+# Backup files 
+*.bak 
+# Environments 
+.env 
+env/ 
+# Visual Studio Code # 
+.vscode/* 
+.idea/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
