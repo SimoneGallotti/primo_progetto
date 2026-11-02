@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import random
 
-from primo_progetto.prima_app.views import lista 
+from prima_app.views import lista
 # Create your views here.
 
 def index (request):
