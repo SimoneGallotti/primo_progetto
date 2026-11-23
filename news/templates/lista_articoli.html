@@ -8,7 +8,7 @@
     {% endif %}
 
     {% for articolo in articoli %}
-        <p><strong>Titolo:</strong> <a href="#">{{ articolo.titolo }}</a></p>
+       <p><strong>Titolo:</strong> <a href="{% url 'news:articolo_detail' articolo.pk %}">{{ articolo.titolo }}</a></p>
         <p><strong>Contenuto:</strong> {{ articolo.contenuto }}</p>
         <p><strong>Autore:</strong> {{ articolo.giornalista }}</p>
         <hr>
